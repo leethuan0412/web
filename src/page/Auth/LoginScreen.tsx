@@ -52,7 +52,6 @@ const LoginScreen = () => {
         </div>
       </div>
       <div className="container_right"></div>
-      <Outlet/>
     </StyledLogin>
   );
 };
