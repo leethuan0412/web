@@ -7,7 +7,6 @@ import { Header } from "./Header/Header";
  const DefaultLayout = ({children}:any) => {
   return (
     <>
-    <Header/>
     {children}
      <Footer/>
     </>

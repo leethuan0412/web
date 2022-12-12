@@ -7,9 +7,13 @@ import { Box, Text, Image, Img } from "@chakra-ui/react";
 import imgStickyRice from "../../assets/image/imgStickyRice.png";
 import imgPo from "../../assets/image/imgPo.png";
 import imgCathedral from "../../assets/image/imgCathedral.png";
+import { Header } from "@/layout/Header/Header";
 
 const AboutScreen = () => { 
   return (
+    <>
+    <Header about/>
+
     <Box style={body}>
       <Box display="flex" flexDirection={"row"}>
         <Box>
@@ -101,6 +105,7 @@ const AboutScreen = () => {
         </Box>
       </Box>
     </Box>
+    </>
   );
 };
 
